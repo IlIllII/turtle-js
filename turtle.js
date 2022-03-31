@@ -4,8 +4,8 @@ context.lineWidth = 1;
 let angle = 3 * Math.PI / 2;
 let sleepDuration = 100;
 let color = "black"
-let x = 0;
-let y = 0;
+let x = canvas.width / 2;
+let y = canvas.height / 2;
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
